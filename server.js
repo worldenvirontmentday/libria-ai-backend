@@ -10,7 +10,7 @@ const app = express();
 
 // Konfigurasi CORS untuk GitHub Pages
 app.use(cors({
-  origin: 'https://<username>.github.io/libria-ai-frontend' // Ganti dengan username GitHub-mu
+  origin: 'https://<worldenvirontmentday>.github.io/libria-ai-frontend'
 }));
 app.use(express.json());
 
